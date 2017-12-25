@@ -3,6 +3,8 @@ Incredibly simple script to export a table's row based on a defined key.
 
 Handy for when collaborating with other developers and you wish to share the chunk of the database you're working on, without giving them the needless bloat of a full database export, or using complicated and monolithic diff scripts.
 
+This script is companion to [Simple Database Row Import](../../../simple-database-row-import)
+
 ie. *Select and export all rows from **foo** table with row **bar** that equals **stuff***
 
 *The instructions below assume you're on a Linux system, though script will work on any platform that has MariaDB or MySQL installed.*
