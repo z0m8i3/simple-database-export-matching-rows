@@ -1,6 +1,4 @@
 #!/bin/bash
-SHELL=/bin/sh
-PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 #database config
 DB_USER="your_db_username"
