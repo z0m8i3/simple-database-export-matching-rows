@@ -14,20 +14,28 @@ ie. *Select and export all rows from **foo** table with row **bar** that equals 
 
 - Put database-export.sh somewhere on your system, ie. `/home/myuser/scripts/`
 
-- Make the script executable:
+Make the script executable:
 
-`chmod +x /home/myuser/scripts/database-export.sh`
+```bash
+chmod +x /home/myuser/scripts/database-export.sh
+```
 
-- Create an alias so you can trigger it from anywhere:
+Create an alias so you can trigger it from anywhere:
 
-`nano ~/.bashrc`
+```bash
+nano ~/.bashrc
+```
 
-- Add the following to the bottom of your **.bashrc** file:
+Add the following to the bottom of your **.bashrc** file:
 
-`alias tblexport='/home/myuser/scripts/database-export.sh'`
+```bash
+alias tblexport='/home/myuser/scripts/database-export.sh'
+```
 
-- Update your bash config without requiring logout:
+Update your bash config without requiring logout:
 
-`. ~/.bashrc`
+```bash
+. ~/.bashrc
+```
 
 Run `tblexport` in your cli any time you need to export the table rows!
